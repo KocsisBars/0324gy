@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+</head>
+<body>
+    <form id="create-form" method="get"></form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Név</th>
+                    <th>Érték</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Név</td>
+                    <td><input type="text" id="nev" name="nev" required></td>
+                </tr>
+                <tr>
+                    <td>Melyik állat?</td>
+                    <td>
+                        <input type="radio" name="allat" value="Kutya" id="kutya"><label for="kutya">Kutya</label><br>
+                        <input type="radio" name="allat" value="Macska" id="macska"><label for="macska">Macska</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" id="kuldes" value="Küldés">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</body>
+</html>
